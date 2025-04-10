@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+}
+
+.button {
+  background-color: transparent;
+  color: #212832;
+  border-radius: 5px;
+  border: 1px solid #212832;
+  cursor: pointer;
+}
+
+.main-button {
+  background-color: #ff9500;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  border-inline: #ff9500 solid 2px;
+}
+
+.main-button:hover {
+    color:#ff9500 ;
+    background-color: #ffffff;;
+
+}
+
+.newsletter-button {
+  color: #ffffff;
+  background-color: #ff946d;
+  border-radius: 10px;
+  border-inline: #ff946d solid 2px;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+    color: #ff946d;
+    background-color: #fff;
+}
