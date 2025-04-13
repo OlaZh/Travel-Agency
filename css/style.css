@@ -1,15 +1,72 @@
+/* root */
+
+/* Base */
+body {
+  color: #5e6282;
+  font-size: 16px;
+}
+
+.sections-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #14183e;
+  line-height: 130%; /* 65/50 */
+}
+
+.txt-sections {
+  font-size: 18px;
+  line-height: 150%; /* 27/18 */
+  font-weight: 600;
+}
+
+h3 {
+  color: #1e1d4c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 ul {
   list-style-type: none;
 }
+/* Header */
 
+.header-link {
+  color: #212832;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+}
+
+/* Button */
 .button {
   background-color: transparent;
   color: #212832;
   border-radius: 5px;
   border: 1px solid #212832;
   cursor: pointer;
+  width: 102px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 17px;
+}
+/* Hero section */
+.txt-hero-section {
+  color: #df6951;
+  font-size: 20px;
+  font-weight: 700;
 }
 
+.hero-title {
+  color: #181e4b;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 105.952381%; /* 89/84 */
+  letter-spacing: -4px;
+}
+.text-hero-section {
+  line-height: 187.5%; /* 30/16 */
+}
 .main-button {
   background-color: #ff9500;
   border-radius: 10px;
@@ -19,9 +76,17 @@ ul {
 }
 
 .main-button:hover {
-    color:#ff9500 ;
-    background-color: #ffffff;;
+  color: #ff9500;
+  background-color: #ffffff;
+}
 
+/* Category section */
+
+/* Newsller section */
+.newsler-title {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 163.636364%; /* 54/33 */
 }
 
 .newsletter-button {
@@ -30,9 +95,22 @@ ul {
   border-radius: 10px;
   border-inline: #ff946d solid 2px;
   cursor: pointer;
+  width: 180px;
+  height: 68px;
+  font-weight: 600;
+  font-size: 17px;
 }
 
 .newsletter-button:hover {
-    color: #ff946d;
-    background-color: #fff;
+  color: #ff946d;
+  background-color: #fff;
+}
+.newsltter-frame {
+  width: 421px;
+  height: 68px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-size: 14px;
+  font-weight: 400;
+line-height: 121.428571%; /* 17/14 */
 }
