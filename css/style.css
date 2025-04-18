@@ -38,6 +38,7 @@ body {
   font-size: 18px;
   line-height: 150%; /* 27/18 */
   font-weight: 600;
+  margin-bottom: 12px;
 }
 h1,
 h2,
@@ -71,8 +72,17 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .container {
-  max-width: 1248px;
+  max-width: 1248px; /*ширина за макетом 1500px*/
   width: 100%;
   margin: 0 auto;
   padding: 0 24px;
@@ -93,6 +103,9 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 /* Hero section */
+.hero-section {
+  padding-bottom: 48px;
+}
 
 .txt-hero-section {
   color: #df6951;
@@ -108,12 +121,16 @@ ul {
   letter-spacing: -4px;
   font-family: 'Volkhov', sans-serif;
   letter-spacing: -4px;
-  padding: 24px 0 30px;
-  margin-bottom:  0;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.txt-hero-section {
+  padding-top: 34px;
 }
 
 .text-hero-section {
   line-height: 187.5%; /* 30/16 */
+  margin: 0 0 21px;
 }
 .main-button {
   background-color: var(--color-button-yellow);
@@ -130,20 +147,70 @@ ul {
 
 /* Category section */
 
+.category-section {
+  padding: 48px 0 62px;
+}
+
 .category-text {
   font-family: 'Open Sans', sans-serif;
 }
+.category-title {
+  margin-bottom: 120px;
+}
+.category-txt {
+  margin-bottom: 15px;
+}
+
+/* Desitnations section */
+
+.txt-desitnations {
+  margin-bottom: 10px;
+}
+.desitnations-title {
+  margin-bottom: 60px;
+}
+
+.desitnations-section {
+  padding: 62px 0 93px;
+}
 
 /* Booking section */
+.booking-title {
+  margin-bottom: 32px;
+}
+.booking-section {
+  padding: 93px 0 102px;
+}
 
 .booking-txt {
   font-weight: 400;
 }
+
+li:not(:last-child) .booking-txt {
+  margin-bottom: 48px;
+}
+
 .booking-text {
   font-weight: 700;
 }
 
+/* Testimonials section */
+
+.testimonials-section {
+  padding: 102px 0 51px;
+}
+/* partner airlines */
+
+.partner-airlines {
+  padding: 51px 0 60px;
+}
+
 /* Newsller section */
+
+.newsletter-section {
+  padding-top: 60px;
+  padding-bottom: 57px;
+}
 
 .newsler-title {
   font-size: 33px;
@@ -176,6 +243,7 @@ ul {
   font-weight: 400;
   line-height: 121.428571%; /* 17/14 */
 }
+
 /* Footer */
 
 .footer-link {
